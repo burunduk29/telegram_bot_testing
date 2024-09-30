@@ -8,6 +8,7 @@ def index(request):
     return render(request, 'index.html', {'employees': employees})
 
 
+
 def send_telegram_message(request):
     if request.method == 'POST':
         message = request.POST['message']

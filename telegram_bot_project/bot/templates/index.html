@@ -17,7 +17,7 @@
         </ul>
 
         <h2>Отправить сообщение</h2>
-        <form action="{% url 'send' %}" method="POST">
+        <form action="{% url 'send_telegram_message' %}" method="POST">
             {% csrf_token %}
             <textarea name="message" placeholder="Введите сообщение" rows="5"></textarea>
             <br><br>

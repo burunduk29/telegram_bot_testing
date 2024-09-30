@@ -123,7 +123,7 @@ USE_TZ = True
 STATIC_URL = '/static/'
 STATICFILES_DIRS = [BASE_DIR / "bot/static"]
 
-TELEGRAM_TOKEN = '7698444912:AAF5rfqsRi5AOExEzycJ3hpxo8bakgyoc7o'
+TELEGRAM_TOKEN = '7698444912:AAHH1BmjIaQxe8Ib4YQbAgM4MA1kr-fZMD4'
 
 
 # Default primary key field type

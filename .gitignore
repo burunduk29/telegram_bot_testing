@@ -1,0 +1,7 @@
+/.env
+
+/telegram_bot_project/db.sqlite3
+
+/telegram_bot_project/**/migrations/**
+/telegram_bot_project/!**/migrations
+/telegram_bot_project/!**/migrations/__init__.py
